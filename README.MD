@@ -17,13 +17,13 @@ Test flow:
 
 ## File Structure
 
-- **Tests.spec.js**: This file includes test scenarios that verify the functionality of the e-commerce application. Each test case is focused on different aspects of the application, such as user login, product selection, and cart management.
+- **Tests.spec.js**: This file includes a test scenario that verifies the good amounts on 2 pages of the e-commerce application. Test case is focused on different aspects of the application, such as user login, product selection, and cart management.
 
-- **Cart.js**: The `Cart` class represents the page object model for the shopping cart page. It encapsulates methods and interactions related to managing items in the shopping cart.
+- **Login.js**: The `Login` class represents the page object model for the login page. It encapsulates methods for navigating to the login page, entering user credentials, and performing login actions.
 
 - **ChooseGoods.js**: The `ChooseGoods` class represents the page object model for the product selection page. It contains methods for searching, selecting products, and adding them to the cart.
 
-- **Login.js**: The `Login` class represents the page object model for the login page. It encapsulates methods for navigating to the login page, entering user credentials, and performing login actions.
+- **Cart.js**: The `Cart` class represents the page object model for the shopping cart page. It contains methods and interactions related to managing items in the shopping cart.
 
 - **FixtureBase.js**: The `FixtureBase` module provides a base configuration for Playwright tests. It includes settings such as viewport size and an event handler for page errors.
 
