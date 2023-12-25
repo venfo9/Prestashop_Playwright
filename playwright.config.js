@@ -37,7 +37,7 @@ module.exports = defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'], headless: false,webSocket: true },
+      use: { ...devices['Desktop Chrome'], headless: true,webSocket: true },
     },
 
     {
