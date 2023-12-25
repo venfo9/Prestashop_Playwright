@@ -33,4 +33,4 @@ Test flow:
 
 1. Install dependencies: `npm install`
 2. Run tests: `npx playwright test tests/Tests.spec.js` 
-or only for Chrome browser in headless mode (it's configured in playwright.config.js): 'npx playwright test tests/Tests.spec.js --project chromium'
+or only for Chrome browser in headless mode (it's configured in playwright.config.js): `npx playwright test tests/Tests.spec.js --project chromium`
